@@ -1,2 +1,2 @@
-# spotify-imers-o-alura
+# spotify-imersao-alura
 Simula o spotify
