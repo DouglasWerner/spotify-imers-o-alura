@@ -1,12 +1,13 @@
 import React from 'react';
 import './Navigation.css';
-import logo from './logo-spotify.png';
+import logo from '../assets/icons/logo-spotify.png';
+import Library from '../Library/Library';
 
 function Navigation() {
     return (
-        <div class="sidebar">
-            <nav class="sidebar__navigation">
-                <div class="logo">
+        <div className="sidebar">
+            <nav className="sidebar__navigation">
+                <div className="logo">
                     <a href="">
                         <img src={logo} alt="Logo do Spotify" />
                     </a>
@@ -14,18 +15,19 @@ function Navigation() {
                 <ul>
                     <li>
                         <a href="">
-                            <span class="fa fa-home"></span>
+                            <span className="fa fa-home"></span>
                             <span>Início</span>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <span class="fa fa-search"></span>
+                            <span className="fa fa-search"></span>
                             <span>Buscar</span>
                         </a>
                     </li>
                 </ul>
             </nav>
+            <Library />
         </div>  
     );
 }

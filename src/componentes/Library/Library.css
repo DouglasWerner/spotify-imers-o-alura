@@ -1,0 +1,216 @@
+.library {
+    background-color: #121212;
+    border-radius: 0.5rem; /* 8px para rem */
+    display: flex;
+    min-block-size: 2.5rem; /* 40px para rem */
+    padding: 0 0.8rem; /* 4px, 8px para rem */
+    color: #b3b3b3;
+    font-size: 0.875rem; /* 14px para rem */
+    margin-top: 0.5rem; /* 8px para rem */
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    height: 70vh;
+}
+
+.library .library__button {
+    margin-right: 0.625rem; /* 10px para rem */
+    color: #b3b3b3;
+    background-color: transparent; /*Elimina o fundo do botão*/
+    border: 0; /*Remove a borda do botão*/
+    font-size: 1rem; /* 16px para rem */
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 1.25rem 0.625rem; /* 20px, 10px para rem */
+    display: flex;
+    transition-duration: .2s;
+}
+
+.library .library__button:hover {
+    color: #fff;
+    transition-duration: .2s;
+}
+
+.library .library__button .fa-book {
+    font-size: 1.25rem; /* 20px para rem */
+    margin-right: 0.625rem; /* 10px para rem */
+    padding-right: 0.5rem; /* 8px para rem */
+    cursor: pointer;
+}
+
+.library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__content .fa-plus {
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 1rem 0.625rem; /* 16px, 10px para rem */
+    padding: 0.5rem 0.625rem; /* 8px, 10px para rem */
+    transition-duration: .2s;
+
+} 
+
+.library .library__content .fa-plus:hover {
+    background-color: #282828;
+}
+
+.library .library__content .fa-plus:active {
+    background-color:#000;
+
+}
+
+.section-playlists,
+.section-podcasts {
+    background-color: #242424;
+    align-items: flex-start;
+    border-radius: 0.5rem; /* 8px para rem */
+    gap: 1.25rem; /* 20px para rem */
+    display: flex;
+    justify-content: space-between;
+    min-block-size: 2.5rem; /* 40px para rem */
+    color: #b3b3b3;
+    font-size: 1rem; /* 16px para rem */
+    padding: 1.25rem; /* 20px para rem */
+
+} 
+
+.section-podcasts {
+    margin-top: 1.5rem; /* 24px para rem */
+}
+
+.section-playlists .section-playlists__content,
+.section-podcasts .section-podcasts__content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.section-playlists__content .text,
+.section-podcasts__content .text {
+    padding-bottom: 0.875rem; /* 14px para rem */
+    color: #fff;
+}
+
+.section-playlists__content .title{
+    font-weight: 600;
+}
+
+.section-podcasts__content .title{
+    font-weight: 600;
+}
+
+.section-playlists__content .subtitle,
+.section-podcasts__content .subtitle {
+    font-size: 0.75rem; /* 13px */
+    width: 75%;
+}
+
+.section-podcasts .section-podcasts__content .section__button,
+.section-playlists .section-playlists__content .section__button {
+    border-radius: 20px;
+    align-self: flex-start;
+    font-size: 0.69rem; /* 12px para rem */
+    font-weight: 800;
+    padding: 0.5rem 1rem; /* 8px, 16px para rem */
+    margin-top: 0.5rem; /* 8px para rem */;
+}
+
+.section-podcasts .section-podcasts__content .section__button:hover,
+.section-playlists .section-playlists__content .section__button:hover {
+    transition-duration: .1s;
+    transform: scale(1.1);
+}
+
+.library .section-footer {
+    border-radius: 0.5rem; /* 8px para rem */
+    display: flex;
+    justify-content: space-around;
+    min-block-size: 2.5rem; /* 40px para rem */
+    padding: 0.25rem 0.4rem; /* 4px, 8px para rem */
+    color: #b3b3b3;
+}
+
+.scroll-playlist-podcasts {
+    overflow-y: hidden;
+    transition-duration: .2s; 
+    height: 46%;
+    position: relative;
+    bottom: 0;
+    direction: inherit;
+    width: auto!important;
+}
+
+.scroll-playlist-podcasts:hover {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition-duration: .4s;
+    position: relative;
+}
+
+.section-footer {
+    margin: 1.5rem 0; /* 24px para rem */;
+}
+.section-footer__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem 0.5rem; /* 4px, 8px para rem */
+    flex-wrap: wrap;
+    gap: 1.2rem; /* 16px para rem */
+}
+
+
+.section-footer .footer__text {
+    color: #b3b3b3;
+    margin: 0.625rem; /* 10px para rem */
+    text-decoration: none;
+    font-size: 0.6rem; /* 12px para rem */
+}
+
+.section-footer .footer__text:hover {
+    color: #fff;
+    transition-duration: .2s;
+}
+
+
+
+.languages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; /* 16px para rem */
+    margin: 1rem; /* 10px para rem */
+}
+
+.languages .languages__button .fa {
+    margin-right: 0.4rem; /* 6px para rem */
+}
+
+.languages .languages__button {
+    color: #fff;
+    font-size: 0.75rem; /* 12px para rem */
+    font-weight: 600;
+    padding: 0.5rem 1rem; /* 8px, 16px para rem */
+    border-radius: 20px;
+    border: 1px solid #b3b3b3;
+    background-color: transparent;
+    font-family: "DM Sans", sans-serif;
+}
+
+.languages .languages__button:hover {
+    transition-duration: .1s;
+    transform: scale(1.1);
+
+}
+
+.languages .languages__button:active {
+    background-color: #000;
+    transform: scale(1);
+
+}
+
+
+
