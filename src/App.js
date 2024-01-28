@@ -1,12 +1,14 @@
 import React from "react"
 import Navigation from "./componentes/Navigation/Navigation";
-import Libary from "./componentes/Library/Library";
+import Footer from "./componentes/Footer/Footer";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navigation />
+        <Footer />
       </header>
     </div>
   );
