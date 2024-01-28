@@ -26,6 +26,14 @@ const Main = () => {
                     <button className='login'>Entrar</button>
                 </div>
             </nav>
+            <div className='playlist-container'>
+                <div className='result-playlist'>
+                    <div className='playlist'>
+                        <h1 id='greeting'></h1>
+                        <h2>Playlists do Spotify</h2>
+                    </div>
+                </div>
+            </div>
         </main>
     );
 };
