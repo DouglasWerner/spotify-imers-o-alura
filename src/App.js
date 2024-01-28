@@ -1,13 +1,12 @@
 import React from "react"
 import Navigation from "./componentes/Navigation/Navigation";
+import Libary from "./componentes/Library/Library";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Spotify</h1>
         <Navigation />
-
       </header>
     </div>
   );
