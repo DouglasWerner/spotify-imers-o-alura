@@ -5,7 +5,7 @@
     left: 0;
     right: 0;
     top: auto;
-    padding: 0.2rem 0.2rem 0 0.2rem;
+    padding: 1.2rem 0.2rem 0 0.2rem;
     display: flex;
     justify-content: space-between;
     margin: 0.5rem;
@@ -42,6 +42,10 @@
     font-size: 1rem;
     font-weight: 700;
     color: #000;
-    margin: auto 0.7rem auto 0.7rem;
+    margin: auto 0.7rem 1rem 0.7rem;
     width: 15rem;
+}
+
+.container button:hover {
+    transform: scale(1.04);
 }
