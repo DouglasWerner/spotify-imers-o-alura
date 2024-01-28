@@ -4,52 +4,66 @@
     left: 0;
     top: 0;
     bottom: 0;
-    width: 18.65rem; /* 300px para rem */
+    width: 18.65rem;
+    /* 300px para rem */
     background-color: #000000;
-    padding: 0.55rem; /* 12px para rem */
+    padding: 0.55rem;
+    /* 12px para rem */
 }
 
 .sidebar .logo {
     background-color: #121212;
     display: flex;
-    border-radius: 0.5rem; /* 8px para rem */
-    padding: 1rem 0 0 1rem; /* 16px, 0, 0, 16px para rem */
+    border-radius: 0.5rem;
+    /* 8px para rem */
+    padding: 1rem 0 0 1rem;
+    /* 16px, 0, 0, 16px para rem */
 }
 
 .sidebar .logo img {
-    width: 5rem; /* 80px para rem */
-    margin: 0 0.625rem; /* 0, 10px para rem */
+    width: 5rem;
+    /* 80px para rem */
+    margin: 0 0.625rem;
+    /* 0, 10px para rem */
 }
 
 .sidebar__navigation {
     background-color: #121212;
-    border-radius: 0.5rem; /* 8px para rem */
+    border-radius: 0.5rem;
+    /* 8px para rem */
     cursor: pointer;
 }
 
 .sidebar nav ul {
     list-style: none;
-    margin-top: 0.7rem; /* 12px para rem */
-    padding: 0 1rem 0.8rem 1rem; /* 0, 16px, 14px, 16px para rem */
+    margin-top: 0.7rem;
+    /* 12px para rem */
+    padding: 0 1rem 0.8rem 1rem;
+    /* 0, 16px, 14px, 16px para rem */
 }
 
 .sidebar nav ul li {
-    padding: 0.7rem 0; /* 10px, 0 para rem */
+    padding: 0.7rem 0;
+    /* 10px, 0 para rem */
 }
 
 .sidebar nav ul li a {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.875rem; /* 14px para rem */
-    padding: 0.7rem; /* 11px para rem */
+    font-size: 0.875rem;
+    /* 14px para rem */
+    padding: 0.7rem;
+    /* 11px para rem */
     transition-duration: .3s;
 
 }
 
 .sidebar nav ul li .fa {
-    font-size: 1.5rem; /* 20px para rem */
-    margin-right: 1.7rem; /* 10px para rem */
+    font-size: 1.5rem;
+    /* 20px para rem */
+    margin-right: 1.7rem;
+    /* 10px para rem */
     font-weight: 300;
 }
 
@@ -59,3 +73,20 @@
 
 }
 
+@media screen and (max-width: 375px) {
+    .playlist {
+        display: none;
+    }
+
+    .playlist-container {
+        width: 100%;
+        /* Ocupa toda a largura disponível */
+        height: auto;
+        /* Altura automática, ajusta conforme o conteúdo */
+    }
+
+    .sidebar {
+        width: 342px;
+    }
+
+}

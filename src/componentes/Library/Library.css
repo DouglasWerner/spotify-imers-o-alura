@@ -8,7 +8,8 @@
     font-size: 0.875rem; /* 14px para rem */
     margin-top: 0.5rem; /* 8px para rem */
     flex-direction: column;
-    height: 70vh;
+    /* height: 70%; 70vh para rem */
+    height: 40rem;
 }
 
 .library .library__button {
@@ -143,12 +144,22 @@
     width: auto!important;
 }
 
+.scroll-playlist-podcasts::-webkit-scrollbar {
+    width: 2px;
+}
+  
+.scroll-playlist-podcasts::-webkit-scrollbar-thumb {
+    background-color: #b3b3b3;
+}
+
 .scroll-playlist-podcasts:hover {
     overflow-y: scroll;
     overflow-x: hidden;
-    transition-duration: .4s;
+    transition-duration: .3s;
     position: relative;
+
 }
+
 
 .section-footer {
     margin: 1.5rem 0; /* 24px para rem */;

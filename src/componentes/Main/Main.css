@@ -104,5 +104,17 @@
     transform: scale(1.04);
   }
   /* FIM HOVER */
-  
+
+  /* MEDIA QUERYS */
+
+  @media screen and (max-width: 1015px) {
+    .header__search {
+      /* display: none !important; */
+      width: auto !important;
+      display: none;
+    }
+  }
   /*FIM HEADER */
+
+    /* MAIN */
+
