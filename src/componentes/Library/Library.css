@@ -8,7 +8,6 @@
     font-size: 0.875rem; /* 14px para rem */
     margin-top: 0.5rem; /* 8px para rem */
     flex-direction: column;
-    font-family: "DM Sans", sans-serif;
     height: 70vh;
 }
 
@@ -166,8 +165,8 @@
 .section-footer .footer__text {
     color: #b3b3b3;
     margin: 0.625rem; /* 10px para rem */
-    text-decoration: none;
     font-size: 0.6rem; /* 12px para rem */
+    text-decoration: none;
 }
 
 .section-footer .footer__text:hover {
@@ -197,7 +196,6 @@
     border-radius: 20px;
     border: 1px solid #b3b3b3;
     background-color: transparent;
-    font-family: "DM Sans", sans-serif;
 }
 
 .languages .languages__button:hover {
