@@ -1,0 +1,47 @@
+.container {
+    position: fixed;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    padding: 0.2rem 0.2rem 0 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.container .link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container .link .footer-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 0.7rem 0.7rem 0 0.7rem;
+}
+
+.container .link .footer-subtitle {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 0 0.7rem 0.7rem 0.7rem;
+}
+
+
+
+.container button {
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    padding: 0.9rem 0;
+    border-radius: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+    margin: auto 0.7rem auto 0.7rem;
+    width: 15rem;
+}
