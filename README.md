@@ -2,7 +2,7 @@
 
 ### Landpage - Spotify.
 
-O projeto é uma landpage, inspirada na plataforma do spotify, consttuida em React, irei implementar o Styled Components, criarei um banco de dados e possivelmente uma api, para que consiga ouvir musicas nesse projeto.
+O projeto é uma landpage, inspirada na plataforma do spotify, construida em React, irei implementar o Styled Components, criarei um banco de dados e possivelmente uma api, para que consiga ouvir musicas nesse projeto.
 
 
 
