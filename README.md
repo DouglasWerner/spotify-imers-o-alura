@@ -10,5 +10,6 @@ O projeto é uma landpage, inspirada na plataforma do spotify, construida em Rea
 
 ![image](https://github.com/DouglasWerner/spotify-imers-o-alura/assets/97309506/21b4fef7-7afb-485d-bf23-32232187c8ca)
 
-
+#ImersãoFrontEnd 
+#Alura
 
