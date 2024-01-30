@@ -49,3 +49,9 @@
 .container button:hover {
     transform: scale(1.04);
 }
+
+  @media screen and (max-height: 840px ) {
+    .container {
+        display: none;
+    }
+  }
